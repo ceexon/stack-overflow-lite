@@ -5,6 +5,7 @@ body,
    margin: 0;
    box-sizing: border-box;
    vertical-align: middle;
+   overflow-x: hidden;
 }
 
 /* Working with the header and main navigation */
@@ -13,10 +14,11 @@ header.main-header {
    position: fixed;
    top: 0;
    height: 50px;
-   background-color: #F48024;
+   background-color: #F48024f5;
    display: flex;
    flex-grow: 1;
    justify-content: space-between;
+   z-index: 5;
 }
 
 /* Logo */
@@ -74,4 +76,110 @@ a.nav-link:hover {
 
 a.nav-link:active {
    color: #666666d1;
+}
+
+h2.welcome {
+   margin-top: 80px;
+   text-align: center;
+   color: #425c81;
+}
+
+section.add-question-box {
+   margin-top: 20px;
+   padding: 20px;
+   display: flex;
+}
+
+select#quiz-topics {
+   overflow: hidden;
+   display: inline-block;
+   flex-grow: 1;
+   padding: 3px 8px;
+   height: 34px;
+   width: 200px;
+   font-size: 1em;
+   border-radius: 10px;
+   background-color: #F48024f5;
+   outline: none;
+   color: #fff;
+   margin-right: 15px;
+}
+
+option.topic-option {
+   background-color: #F4802433;
+
+}
+
+form.ask-question-bar {
+   flex-grow: 8;
+   flex-basis: 400px;
+}
+
+input.fetch-quiz {
+   width: 70%;
+   padding: 10px 15px;
+   border-radius: 10px;
+   outline: none;
+   border: 1px solid #d1d3d2;
+   margin-right: 10px;
+}
+
+input.quesion-button {
+   width: 15%;
+   background-color: #F48024f5;
+   padding: 8px 10px;
+   color: #fff;
+   font-weight: 550;
+   font-size: 1.2em;
+   outline: none;
+   border: none;
+   border-radius: 10px;
+}
+
+/* Questions section */
+section.question-dialog {
+   padding: 10px;
+   width: 99%;
+   margin: 15px auto;
+   border: 1px solid #d1d3d2;
+   border-radius: 10px;
+   outline: none;
+   box-sizing: border-box;
+}
+
+div.question-box {
+   padding: 10px;
+   width: 85%;
+   text-align: justify;
+}
+
+div.user-time {
+   width: 30%;
+   background-color: #425c8111;
+   padding: 5px;
+   font-size: 14px;
+   border-radius: 2px;
+   color: #425c81;
+}
+
+span.time-asked {
+   color: #F48024f5;
+}
+
+div.actual-quiz {
+   padding: 10px;
+}
+
+h3.quiz-title {
+   padding: 5px;
+   font-weight: 200;
+   font-size: 19px;
+   color: #620c67
+}
+
+p.quiz-par {
+   width: 80%;
+   padding: 10px 25px;
+   background-color: #f3f3f3;
+   border-radius: 3px;
 }
