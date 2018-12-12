@@ -105,11 +105,6 @@ select#quiz-topics {
    margin-right: 15px;
 }
 
-option.topic-option {
-   background-color: #F4802433;
-
-}
-
 form.ask-question-bar {
    flex-grow: 8;
    flex-basis: 400px;
