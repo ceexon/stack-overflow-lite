@@ -78,25 +78,27 @@
       </div>
 
       <div class="actual-answer actual-quiz">
-        <p class="quoted quiz-par">
+        <p class="quoted-quiz quiz-par">
           hint: (e.g. 'git pull ...') before pushing again. <br />
           hint: See the 'Note about fast-forwards' in 'git push --help' for
           details.
         </p>
-        <p>
-          based on the above error error info, You must first do a git pull before you push
-          <blockquote>
+        <div class="answer-par">
+          based on the above error error info, You must first do a git pull before you push. <br>
+          Try:
+          <br>
+          <div class="quoted-answer">
             git pull or git pull origin branch-name
-          </blockquote>
+          </div> <br>
           The error is because of an inconsistency between your local repo and what is on github. Maybe a change has
           been made online on github and has not been updated to your local repository
           "git pull" should fix that.
-        </p>
+        </div>
       </div>
     </div>
 
-    <div class="answer-quiz">
-      <button type="button" class="answer-first-btn">Add an Answer</button>
+    <div class="answer-quiz ">
+      <button type="button" class="answer-first-btn answer-again-btn">Add an Answer <span class="fas fa-plus"></span></button>
     </div>
 
   </section>
@@ -143,10 +145,12 @@
         </p>
       </div>
     </div>
-    <div class="answer-quiz">
-      <form action="#">
-        <textarea name="quiz-answer" cols="50" rows="10" class="answer-descr-box" required placeholder="Enter your answer....."></textarea>
-        <input type="submit" role="button" value="Submit Answer">
+    <div class="quiz-answer quiz-answer-now">
+      <form action="#" class="answering">
+        <label for="quiz-answer" class="answer-now">Answer for the question: </label>
+        <textarea name="quiz-answer" cols="50" rows="8" class="answer-descr-box" required placeholder="Enter your answer here....."></textarea>
+        <br>
+        <input type="submit" role="button" value="Submit Answer" class="submit-answer">
       </form>
     </div>
   </section>
