@@ -67,6 +67,38 @@
         </p>
       </div>
     </div>
+
+    <div class="quiz-answer">
+      <h3 class="answer-head">Answer</h3>
+      <div class="user-time">
+        <p class="user-title">
+          <span class="user-name">bkin0120</span> |
+          <span class="time-asked">13/12/2018, 11:04 am</span>
+        </p>
+      </div>
+
+      <div class="actual-answer actual-quiz">
+        <p class="quoted quiz-par">
+          hint: (e.g. 'git pull ...') before pushing again. <br />
+          hint: See the 'Note about fast-forwards' in 'git push --help' for
+          details.
+        </p>
+        <p>
+          based on the above error error info, You must first do a git pull before you push
+          <blockquote>
+            git pull or git pull origin branch-name
+          </blockquote>
+          The error is because of an inconsistency between your local repo and what is on github. Maybe a change has
+          been made online on github and has not been updated to your local repository
+          "git pull" should fix that.
+        </p>
+      </div>
+    </div>
+
+    <div class="answer-quiz">
+      <button type="button" class="answer-first-btn">Add an Answer</button>
+    </div>
+
   </section>
 
   <section class="question-dialog">
@@ -86,6 +118,9 @@
           and I want to insert 2 between 1 and 3.
         </p>
       </div>
+    </div>
+    <div class="answer-quiz">
+      <button type="button" class="answer-first-btn">Answer Quiz</button>
     </div>
   </section>
 
@@ -107,6 +142,12 @@
           will help me learn more.
         </p>
       </div>
+    </div>
+    <div class="answer-quiz">
+      <form action="#">
+        <textarea name="quiz-answer" cols="50" rows="10" class="answer-descr-box" required placeholder="Enter your answer....."></textarea>
+        <input type="submit" role="button" value="Submit Answer">
+      </form>
     </div>
   </section>
 </body>
