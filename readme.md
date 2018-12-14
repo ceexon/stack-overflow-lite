@@ -18,13 +18,13 @@ It includes:
 
 #basic functions conducted by buttons
 
-> -sign up  
->  -login  
->  -ask question  
->  -answer question  
->  -view all answers to a question  
->  -view all questions asked  
->  -upvote or downvote an answer
+> - sign up
+> - login
+> - ask question
+> - answer question
+> - view all answers to a question
+> - view all questions asked
+> - upvote or downvote an answer
 
 **NOTE**
 Most of these buttons are inactive as this is just a html css  
