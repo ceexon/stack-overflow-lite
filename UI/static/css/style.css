@@ -1,0 +1,272 @@
+body,
+* {
+   font-family: sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   vertical-align: middle;
+   overflow-x: hidden;
+   background-color: #e5ecea00;
+}
+
+/* Working with the header and main navigation */
+header.main-header {
+   width: 100%;
+   position: fixed;
+   top: 0;
+   height: 50px;
+   background-color: #F48024f5;
+   display: flex;
+   /* flex-grow: 1; */
+   justify-content: space-between;
+   z-index: 5;
+}
+
+/* Logo */
+
+div.logo,
+div.logo>img {
+   width: 80px;
+   height: 100%;
+}
+
+div.logo>img {
+   width: 80%;
+   height: 100%;
+   border-radius: 10px;
+   display: inline-block;
+}
+
+span.extend-logo {
+   display: inline-block;
+   position: absolute;
+   left: 60px;
+   bottom: 10px;
+   font-weight: 600;
+   color: #fff;
+}
+
+/* main navigation */
+nav.main-nav {
+   flex-basis: 50%;
+}
+
+ul.nav-list {
+   display: flex;
+   height: 100%;
+   align-items: flex-end;
+   justify-content: flex-end;
+   width: 100%;
+}
+
+li.nav-item {
+   list-style: none;
+   padding: 0 15px 10px;
+}
+
+a.nav-link {
+   text-decoration: none;
+   font-weight: 550;
+   font-size: 1.2em;
+   color: #fff;
+}
+
+a.nav-link:hover {
+   color: #d1d3d2;
+}
+
+a.nav-link:active {
+   color: #666666d1;
+}
+
+h2.welcome-index,
+h2.b4-forms {
+   margin-top: 80px;
+   text-align: center;
+   color: #425c81;
+}
+
+
+/* start popular nav */
+
+section.quiz-nav {
+   display: flex;
+   flex-wrap: wrap;
+   width: 80%;
+   margin: 20px auto;
+   justify-content: space-evenly;
+   background-color: #d1d3d211;
+   flex-grow: 1;
+}
+
+div.quiz-nav-items {
+   text-align: center;
+   padding: 10px;
+   flex-basis: 20%;
+}
+
+div.quiz-nav-items.active {
+   background-color: #d1d3d2;
+}
+
+a.quiz-nav-links {
+   color: #425c81;
+   font-weight: 550;
+   text-decoration: none;
+}
+
+div.quiz-nav-items.active a.quiz-nav-links {
+   color: #5ac820;
+}
+
+
+/* end popular nav */
+
+/* Questions section */
+section.question-dialog {
+   padding: 10px;
+   width: 99%;
+   margin: 15px auto;
+   border: 1px solid #d1d3d2;
+   border-radius: 10px;
+   outline: none;
+   box-sizing: border-box;
+}
+
+div.question-box {
+   padding: 10px;
+   width: 85%;
+   text-align: justify;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+
+div.user-time {
+   background-color: #425c8111;
+   padding: 5px;
+   font-size: 14px;
+   border-radius: 2px;
+   color: #425c81;
+   flex-basis: 50%;
+   align-self: stretch;
+}
+
+span.time-asked {
+   color: #F48024f5;
+}
+
+div.actual-quiz {
+   padding: 10px;
+   flex-basis: 80%;
+}
+
+h3.quiz-title {
+   padding: 5px;
+   font-weight: 550;
+   font-size: 19px;
+   color: #620c67
+}
+
+p.quiz-par {
+   width: 90%;
+   padding: 10px 25px;
+   background-color: #f3f3f3;
+   border-radius: 3px;
+   letter-spacing: -1;
+}
+
+div.categories-recent {
+   flex-basis: 100%;
+   padding: 2px 20px 10px;
+   height: 100%;
+   align-items: center;
+   align-content: center;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+div.categories-recent button.cat-select-quiz {
+   outline: none;
+   cursor: pointer;
+   color: #5ac820;
+   background-color: #425c8141;
+   border: none;
+   padding: 5px 10px;
+   margin: 8px 10px;
+
+}
+
+div.answer-quiz {
+   padding: 10px 5px;
+   text-align: center;
+}
+
+div.answer-quiz button.answer-quiz-button,
+input.submit-answer {
+   padding: 10px;
+   font-size: 1.2em;
+   background-color: #425c81;
+   color: #fff;
+   font-weight: 550;
+   border: none;
+   border-radius: 10px;
+   outline: none;
+   cursor: pointer;
+   width: 25%;
+}
+
+section.quiz-dlog-ans {
+   width: 100%;
+   border-radius: 0;
+   border-right: none;
+   border-left: none;
+   border-color: #425c81;
+}
+
+div.your-answer {
+   width: 85%;
+   margin: auto;
+   padding: 10px;
+   text-align: center;
+}
+
+h3.your-answer-title {
+   text-align: justify;
+   width: 80%;
+   font-weight: 590;
+   font-size: 1.4em;
+}
+
+form.your-answer-fields {
+   width: 90%;
+   border: 1px solid #d1d3d2;
+   border-radius: 8px;
+   padding: 10px;
+}
+
+textarea.your-answer-box {
+   width: 80%;
+   height: 40vh;
+   padding: 10px;
+   margin: 10px 0;
+   border-radius: 10px;
+   font-size: 1.2em;
+   outline: none;
+}
+
+input.submit-answer {
+   background-color: #5ac820;
+}
+
+button.answer-quiz-button.more {
+   max-width: 200px;
+   margin-right: 5%;
+}
+
+div.answer-box {
+   margin-left: 10%;
+   border: 1px solid #425c8141;
+}
+
+/* end Questions area */
