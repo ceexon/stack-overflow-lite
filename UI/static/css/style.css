@@ -267,6 +267,21 @@ button.answer-quiz-button.more {
 div.answer-box {
    margin-left: 10%;
    border: 1px solid #425c8141;
+   background-color: #425c8124;
+}
+
+div.actual-answer,
+p.answer-par {
+   background-color: #d1d3d4;
+}
+
+h3.answers {
+   color: #620c67;
+   font-weight: 550;
+   font-size: 1.5em;
+   text-align: justify;
+   margin-left: 3%;
+   margin-bottom: 10px;
 }
 
 /* end Questions area */
