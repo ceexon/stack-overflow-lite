@@ -85,6 +85,40 @@ h2.b4-forms {
    color: #425c81;
 }
 
+/* start popular nav */
+
+section.quiz-nav {
+   display: flex;
+   flex-wrap: wrap;
+   width: 80%;
+   margin: 20px auto;
+   justify-content: space-evenly;
+   background-color: #d1d3d211;
+   flex-grow: 1;
+}
+
+div.quiz-nav-items {
+   text-align: center;
+   padding: 10px;
+   flex-basis: 20%;
+}
+
+div.quiz-nav-items.active {
+   background-color: #d1d3d2;
+}
+
+a.quiz-nav-links {
+   color: #425c81;
+   font-weight: 550;
+   text-decoration: none;
+}
+
+div.quiz-nav-items.active a.quiz-nav-links {
+   color: #5ac820;
+}
+
+/* end popular nav */
+
 /* Ask question page */
 h2.ask {
    color: #5ea032;
