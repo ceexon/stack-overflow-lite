@@ -35,7 +35,7 @@
       <div class="quiz-nav-items"><a href="askQuiz.html" class="quiz-nav-links">Ask</a></div>
    </section>
 
-   <section class="question-dialog">
+   <section class="question-dialog quiz-dlog-ans">
       <div class="question-box">
          <div class="user-time">
             <p class="user-title">
@@ -66,8 +66,16 @@
          </div>
       </div>
 
+      <div class="your-answer">
+         <h3 class="your-answer-title">Your Answer</h3>
+         <form action="answers.html" class="your-answer-fields">
+            <textarea required class="your-answer-box" placeholder="Your Answer Goes in here...."></textarea> <br>
+            <input type="submit" class="submit-answer" value="Submit Answer" role="button"></form>
+      </div>
+
       <div class="answer-quiz">
-         <button class="answer-quiz-button">Answer The Question</button>
+         <button class="answer-quiz-button more">2 more Answer(s)</button>
+         <button class="answer-quiz-button more">similar questions</button>
       </div>
 
    </section>
