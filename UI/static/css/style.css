@@ -126,6 +126,7 @@ input.fetch-quiz {
 input.quesion-button {
    width: 15%;
    background-color: #F48024f5;
+   cursor: pointer;
    padding: 8px 10px;
    color: #fff;
    font-weight: 550;
