@@ -48,7 +48,7 @@ def get_quiz_by_category(cat):
             else:
                 available_categories.append(a_cat)
 
-    # check if user posted category is in avalable categories
+    # check if user posted category is in avalable category
     if cat in available_categories:
         cat_quiz_count = 1
         for question in quiz:
