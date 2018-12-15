@@ -85,9 +85,154 @@ h2.b4-forms {
    color: #425c81;
 }
 
+/* Ask question page */
+h2.ask {
+   color: #5ea032;
+   text-decoration: underline;
+   margin-top: 70px;
+}
+
+section.ask-area {
+   display: flex;
+   flex-grow: 1;
+   width: 95%;
+   margin: auto;
+}
+
+div.quiz-ask-box,
+div.quiz-ask-aside {
+   text-align: center;
+   padding: 15px;
+}
+
+div.quiz-ask-aside {
+   flex-grow: 2;
+}
+
+form.add-cats {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+button.cat-title,
+input.cat-submit,
+input.ask-quiz-btn {
+   border: none;
+   outline: none;
+   padding: 2px 10px;
+   font-size: 1.1em;
+   background-color: #5ea032;
+   border-radius: 10px;
+   margin-bottom: 10px;
+   width: 70%;
+   color: #fff;
+   font-weight: 550;
+   cursor: pointer;
+}
+
+input.cat-names-for-quiz,
+input.quiz-title-field {
+   padding: 10px;
+   border-radius: 10px;
+   width: 170px;
+   margin-bottom: 10px;
+   outline: none;
+   border: 1px solid #d1d3d2;
+}
+
+input.cat-submit {
+   padding: 2px 6px;
+   cursor: pointer;
+   margin-top: 15px;
+   width: 70%;
+}
+
+div.quiz-ask-box {
+   flex-grow: 7;
+}
+
+input.quiz-title-field {
+   padding: 5px 8px;
+   width: 70%;
+}
+
+label.title-quiz-title-field {
+   color: #5ea032;
+   font-size: 1.2em;
+   font-weight: 600;
+   display: inline-block;
+   padding-bottom: 10px;
+}
+
+textarea.quiz-description-field {
+   width: 90%;
+   margin: auto;
+   padding: 10px;
+   border-radius: 10px;
+   font-size: 1.1em;
+   margin-top: 20px;
+   outline: none;
+   border: 1px solid #d1d3d2;
+}
+
+input.ask-quiz-btn {
+   padding: 3px 10px;
+   width: 30%;
+   margin-top: 20px;
+}
 
 @media screen and (max-width: 750px) {
    nav.main-nav {
       flex-basis: 70%;
    }
+
+   button.cat-title,
+   input.cat-submit {
+      width: 40%;
+   }
+
+   section.ask-area {
+      flex-direction: column;
+   }
+
+   div.quiz-ask-box,
+   div.quiz-ask-aside {
+      flex-grow: 1;
+   }
+}
+
+/* @media screen and (max-width: 650px) {} */
+
+@media screen and (max-width: 550px) {
+   input.ask-quiz-btn {
+      width: 40%;
+   }
+
+   input.cat-submit {
+      width: 50%;
+   }
+}
+
+@media screen and (max-width: 400px) {
+   input.ask-quiz-btn {
+      width: 55%;
+   }
+
+   input.cat-submit {
+      width: 60%;
+   }
+}
+
+@media screen and (max-width: 350px) {
+
+   button.cat-title,
+   input.cat-submit {
+      width: 70%;
+   }
+
+   input.ask-quiz-btn {
+      width: 70%;
+   }
+
 }
