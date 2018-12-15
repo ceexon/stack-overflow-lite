@@ -7,6 +7,7 @@
    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
    <title>StackOverflow Lite</title>
    <link rel="icon" type="image/png" href="../static/images/stack-logo-2.png">
+   <link rel="stylesheet" href="../static/css/all.css" />
    <link rel="stylesheet" href="../static/css/style.css" />
 </head>
 
@@ -26,10 +27,10 @@
       </nav>
    </header>
 
-   <h2 class="welcome b4-forms">Join the stack-overflow lite community</h2>
+   <h2 class="welcome b4-forms">Welcome to stack-overflow lite</h2>
 
    <section class="quiz-nav">
-      <div class="quiz-nav-items"><a href="index.html" class="quiz-nav-links">Recent</a></div>
+      <div class="quiz-nav-items active"><a href="index.html" class="quiz-nav-links">Recent</a></div>
       <div class="quiz-nav-items"><a href="popular.html" class="quiz-nav-links">Popular</a></div>
       <div class="quiz-nav-items"><a href="unsolved.html" class="quiz-nav-links">Unsolved</a></div>
       <div class="quiz-nav-items"><a href="askQuiz.html" class="quiz-nav-links">Ask</a></div>
@@ -59,15 +60,14 @@
                details.
             </p>
          </div>
+         <div class="categories-recent">
+            <button class="cat-select-quiz">Programming</button>
+            <button class="cat-select-quiz">Github</button>
+
+         </div>
       </div>
 
-      <div class="categories-recent">
-         <button class="cat-select-quiz">Programming</button>
-         <button class="cat-select-quiz">Github</button>
-
-      </div>
-
-      <div class="ansers-area-all">
+      <div class="answer-quiz">
          <button class="answer-quiz-button">Answer The Question</button>
       </div>
 
@@ -97,18 +97,17 @@
                details.
             </p>
          </div>
+         <div class="categories-recent">
+            <button class="cat-select-quiz">Programming</button>
+            <button class="cat-select-quiz">Python</button>
+            <button class="cat-select-quiz">Html</button>
+            <button class="cat-select-quiz">Css</button>
+         </div>
       </div>
 
-      <div class="categories-recent">
-         <button class="cat-select-quiz">Programming</button>
-         <button class="cat-select-quiz">Python</button>
-         <button class="cat-select-quiz">Html</button>
-         <button class="cat-select-quiz">Css</button>
       </div>
 
-      </div>
-
-      <div class="ansers-area-all">
+      <div class="answer-quiz">
          <button class="answer-quiz-button">2 Answer(s)</button>
          <button class="answer-quiz-button">Add an Answer</button>
       </div>
@@ -139,57 +138,18 @@
                details.
             </p>
          </div>
-      </div>
-
-      <div class="categories-recent">
-         <button class="cat-select-quiz">Programming</button>
-         <button class="cat-select-quiz">Engineering</button>
-         <button class="cat-select-quiz">Maths</button>
-         <button class="cat-select-quiz">Logic</button>
-      </div>
-
-      </div>
-
-      <div class="ansers-area-all">
-         <button class="answer-quiz-button">Answer The Question</button>
-      </div>
-
-   </section>
-
-   <section class="question-dialog">
-      <div class="question-box">
-         <div class="user-time">
-            <p class="user-title">
-               <span class="user-name">User001</span> |
-               <span class="time-asked">13/12/2018, 1 day</span>
-            </p>
-         </div>
-         <div class="actual-quiz">
-            <h3 class="quiz-title">
-               Git refuses to push and raises the error below. Please help?
-            </h3>
-            <p class="quiz-par">
-               error: failed to push some refs to
-               'git@github.com:kburudi/stack-overflow-lite.git' <br />
-               hint: Updates were rejected because a pushed branch tip is behind
-               its remote <br />
-               hint: counterpart. Check out this branch and integrate the remote
-               changes <br />
-               hint: (e.g. 'git pull ...') before pushing again. <br />
-               hint: See the 'Note about fast-forwards' in 'git push --help' for
-               details.
-            </p>
+         <div class="categories-recent">
+            <button class="cat-select-quiz">Programming</button>
+            <button class="cat-select-quiz">Engineering</button>
+            <button class="cat-select-quiz">Maths</button>
+            <button class="cat-select-quiz">Logic</button>
          </div>
       </div>
 
-      <div class="categories-recent">
-         <button class="cat-select-quiz">Programming</button>
       </div>
 
-      </div>
-
-      <div class="ansers-area-all">
-         <button class="answer-quiz-button">6 Answer(s)</button>
+      <div class="answer-quiz">
+         <button class="answer-quiz-button">1 Answer(s)</button>
          <button class="answer-quiz-button">Add an Answer</button>
       </div>
 
@@ -219,16 +179,53 @@
                details.
             </p>
          </div>
+         <div class="categories-recent">
+            <button class="cat-select-quiz">Github</button>
+         </div>
       </div>
 
-      <div class="categories-recent">
-         <button class="cat-select-quiz">Github</button>
       </div>
 
-      </div>
-
-      <div class="ansers-area-all">
+      <div class="answer-quiz">
          <button class="answer-quiz-button">Answer The Question</button>
+      </div>
+
+   </section>
+
+   <section class="question-dialog">
+      <div class="question-box">
+         <div class="user-time">
+            <p class="user-title">
+               <span class="user-name">User001</span> |
+               <span class="time-asked">13/12/2018, 1 day</span>
+            </p>
+         </div>
+         <div class="actual-quiz">
+            <h3 class="quiz-title">
+               Git refuses to push and raises the error below. Please help?
+            </h3>
+            <p class="quiz-par">
+               error: failed to push some refs to
+               'git@github.com:kburudi/stack-overflow-lite.git' <br />
+               hint: Updates were rejected because a pushed branch tip is behind
+               its remote <br />
+               hint: counterpart. Check out this branch and integrate the remote
+               changes <br />
+               hint: (e.g. 'git pull ...') before pushing again. <br />
+               hint: See the 'Note about fast-forwards' in 'git push --help' for
+               details.
+            </p>
+         </div>
+         <div class="categories-recent">
+            <button class="cat-select-quiz">Programming</button>
+         </div>
+      </div>
+
+      </div>
+
+      <div class="answer-quiz">
+         <button class="answer-quiz-button">6 Answer(s)</button>
+         <button class="answer-quiz-button">Add an Answer</button>
       </div>
 
    </section>
