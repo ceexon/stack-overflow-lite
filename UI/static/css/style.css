@@ -437,6 +437,7 @@ input.ask-quiz-btn {
       width: 50%;
       margin-left: 15%;
    }
+}
 
 @media screen and (max-width: 750px) {
    nav.main-nav {
@@ -521,17 +522,15 @@ input.ask-quiz-btn {
       padding: 10px;
       text-align: left;
    }
-
-/* @media screen and (max-width: 650px) {} */
-
-@media screen and (max-width: 550px) {
-   input.ask-quiz-btn {
+  
+  input.ask-quiz-btn {
       width: 40%;
    }
 
    input.cat-submit {
       width: 50%;
    }
+   
 }
 
 @media screen and (max-width: 400px) {
