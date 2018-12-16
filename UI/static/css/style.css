@@ -236,7 +236,6 @@ a.quiz-nav-links {
 div.quiz-nav-items.active a.quiz-nav-links {
    color: #5ac820;
 }
-
 /* end popular nav */
 
 /* Questions section */
@@ -320,10 +319,7 @@ div.answer-quiz {
 }
 
 div.answer-quiz button.answer-quiz-button,
-input.submit-answer {
-}
-
-div.answer-quiz button.answer-quiz-button {
+input.submit-answer{
    padding: 10px;
    font-size: 1.2em;
    background-color: #425c81;
@@ -384,6 +380,25 @@ button.answer-quiz-button.more {
    margin-right: 5%;
 }
 
+div.answer-box {
+   margin-left: 10%;
+   border: 1px solid #425c8141;
+   background-color: #425c8124;
+}
+
+div.actual-answer,
+p.answer-par {
+   background-color: #d1d3d4;
+}
+
+h3.answers {
+   color: #620c67;
+   font-weight: 550;
+   font-size: 1.5em;
+   text-align: justify;
+   margin-left: 3%;
+   margin-bottom: 10px;
+}
 /* end Questions area */
 
 /* Ask question page */
