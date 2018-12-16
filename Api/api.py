@@ -24,7 +24,7 @@ def add_question():
                 if create_quiz["description"] == question["description"]:
                     return jsonify({"Question already exists": question})
             quiz.append(create_quiz)
-            return jsonify({"Question added succesfully, Here it is": quiz}), 201
+            return jsonify({"Question added succesfully(end of list)": quiz}), 201
 
     return jsonify({"username not found": "User does not exist. Create an account to be able to post questions"}), 404
 
