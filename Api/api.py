@@ -62,6 +62,19 @@ def get_quiz_by_category(cat):
     else:
         return jsonify({404: "Category not found"}), 404
 
+# get question by id
+
+
+@app.route('/question/<string:q_id>')
+def get_question_by_id(q_id):
+    for question in quiz:
+        if question["id"] == q_id or question["id"][2:] == q_id:
+            return jsonify({"The Question is": [question["id"], question['description']]}), 200
+
+    if not q_id.isdigit():
+        return jsonify({"Question not foind": "Invalid Id Format " + "('" + q_id + "')"})
+    return jsonify({"No question with id " + q_id: "Question Not Found"}), 400
+
 
 if __name__ == "__main__":
     app.run(debug=True)
