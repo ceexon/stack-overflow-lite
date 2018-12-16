@@ -6,6 +6,7 @@ body,
    box-sizing: border-box;
    vertical-align: middle;
    overflow-x: hidden;
+   background-color: #e5ecea00;
 }
 
 /* Working with the header and main navigation */
@@ -315,6 +316,11 @@ div.categories-recent button.cat-select-quiz {
 
 div.answer-quiz {
    padding: 10px 5px;
+   text-align: center;
+}
+
+div.answer-quiz button.answer-quiz-button,
+input.submit-answer {
 }
 
 div.answer-quiz button.answer-quiz-button {
@@ -330,7 +336,56 @@ div.answer-quiz button.answer-quiz-button {
    width: 25%;
 }
 
+section.quiz-dlog-ans {
+   width: 100%;
+   border-radius: 0;
+   border-right: none;
+   border-left: none;
+   border-color: #425c81;
+}
+
+div.your-answer {
+   width: 85%;
+   margin: auto;
+   padding: 10px;
+   text-align: center;
+}
+
+h3.your-answer-title {
+   text-align: justify;
+   width: 80%;
+   font-weight: 590;
+   font-size: 1.4em;
+}
+
+form.your-answer-fields {
+   width: 90%;
+   border: 1px solid #d1d3d2;
+   border-radius: 8px;
+   padding: 10px;
+}
+
+textarea.your-answer-box {
+   width: 80%;
+   height: 40vh;
+   padding: 10px;
+   margin: 10px 0;
+   border-radius: 10px;
+   font-size: 1.2em;
+   outline: none;
+}
+
+input.submit-answer {
+   background-color: #5ac820;
+}
+
+button.answer-quiz-button.more {
+   max-width: 200px;
+   margin-right: 5%;
+}
+
 /* end Questions area */
+
 /* Ask question page */
 h2.ask {
    color: #5ea032;
