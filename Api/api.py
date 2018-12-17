@@ -18,6 +18,9 @@ def det_all_questions():
         numi = str(i+1)
         asked.append({numi+'. ': question["description"]})
 
+    if asked == []:
+        return "No questions found", 404
+
     return jsonify({"All questions": asked})
 
 
