@@ -11,8 +11,6 @@ It includes the main page, signup and login pages
 
 #basic functions conducted by buttons
 
-<<<<<<< HEAD
-
 > - sign up
 > - login
 > - ask question
