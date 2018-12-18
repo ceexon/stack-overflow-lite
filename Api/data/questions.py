@@ -4,7 +4,7 @@ Questions = [
         "category": ["History"],
         "title": "Presidents",
         "description": "Who was the first president of Kenya?",
-        "asker-username": "trev-021",
+        "asker-username": "trev-012",
     },
     {
         "id": "002",
@@ -18,7 +18,7 @@ Questions = [
         "category": ["Maths", "Programming", "python", "Algebra"],
         "title": "Sum",
         "description": "Given a set of data such that a = 25 and b = 30. \n Write a python function to calculate the sum of a and b without importing the math function",
-        "asker-username": "trev-021",
+        "asker-username": "trev-012",
     },
     {
         "id": "004",
